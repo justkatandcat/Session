@@ -16,7 +16,8 @@ import javax.servlet.http.HttpSession;
 
 public class SesionesServlet extends HttpServlet {
    
-     public void doPost(HttpServletRequest request, HttpServletResponse response)
+     @Override
+    public void doPost(HttpServletRequest request, HttpServletResponse response)
     throws ServletException, IOException {
 
          String nombre;
